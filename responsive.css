@@ -1,3 +1,8 @@
+:root{
+    --primary-color:#26335D;
+    --secondar-color:#fff;
+    --tertiary-color:#1BA0AB;
+}
 @media(max-width:1032px) {
     .purchase_banner {
         display: flex;
@@ -18,7 +23,7 @@
         position: absolute;
         top: 73px;
         left: 10px;
-        background-color: #fff;
+        background-color: var(--secondar-color);
         border-radius: 5px;
     }
     .nav_elements{
@@ -35,15 +40,15 @@
     }
 
     .link_item li a {
-        color: #1BA0AB;
+        color:var(--tertiary-color);
     }
 
     .dropdown li a {
-        color: #fff;
+        color: var(--secondar-color);
     }
 
     .mini_drop li a {
-        color: #1BA0AB;
+        color: var(--tertiary-color);
     }
 
 
